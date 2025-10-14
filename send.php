@@ -8,7 +8,7 @@
 	<!-- color of address bar in mobile browser -->
 	<meta name="theme-color" content="#28292C">
 	<!-- favicon  -->
-	<link rel="shortcut icon" href="img/light/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
 	<!-- font awesome css -->
@@ -22,7 +22,7 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style-light.css">
 
-	<title>Mireya</title>
+	<title>Ardot</title>
 
 </head>
 
