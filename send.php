@@ -26,7 +26,7 @@
 
 </head>
 
-<body onLoad="setTimeout('delayedRedirect()', 5000)">
+<body>
 
 <?php
 

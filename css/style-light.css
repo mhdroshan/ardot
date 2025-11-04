@@ -2248,3 +2248,7 @@ blockquote:after {
 	-webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
 	animation: checkmark-circle 0.6s ease-in-out backwards
 }
+/* custom styles */
+img.service_icon{
+	max-height: 72px;
+}
