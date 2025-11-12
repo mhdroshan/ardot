@@ -29,7 +29,31 @@
 	<link rel="stylesheet" href="css/style-light.css">
 
 	<title>Ardot</title>
+	<style>
+		br.show-for-medium-only{
+			display: none;
+		}
+		@media (min-width: 500px) {
+			br.show-for-medium-only{
+				display: inline;
+			}
+		}
+		@media (max-width: 500px) {
+			.mry-slider-arrows{
+				left: unset;
+				right: 11vw;
+			}
+			
+		}
+		@media (max-width: 450px) {
+			.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title{
+				padding-bottom: 10px !important;
+				background-color: #f7f8fad1 !important;
+			}
+			
+		}
 
+	</style>
 </head>
 
 <body>
@@ -164,7 +188,7 @@
 												data-swiper-parallax-duration="1000">
 												<div class="mry-subtitle mry-mb-20">Interior design</div>
 												<h1 class="mry-mb-30">Refined<br><span class="mry-border-text">Everyday Comfort</span></h1>
-												<div class="mry-text mry-mb-30">Soft tones and natural textures come together<br>to create a warm, balanced, and inviting atmosphere.</div>
+												<div class="mry-text mry-mb-30">Soft tones and natural textures come together<br class="show-for-medium-only">to create a warm, balanced, and inviting atmosphere.</div>
 												<a class="mry-btn mry-default-link mry-anima-link" href="project.html">Open Case</a>
 												<a class="mry-btn-text mry-default-link mry-anima-link" href="portfolio-grid-2.html">All Projects</a>
 											</div>
@@ -191,7 +215,7 @@
 												data-swiper-parallax-duration="1000">
 												<div class="mry-subtitle mry-mb-20">Interior design</div>
 												<h1 class="mry-mb-30">Modern<br><span class="mry-border-text">Minimalist Haven</span><span class="mry-animation-el"></span></h1>
-												<div class="mry-text mry-mb-30">A warm, modern space combining wood textures <br>and minimal design for effortless comfort and elegance.</div>
+												<div class="mry-text mry-mb-30">A warm, modern space combining wood textures <br class="show-for-medium-only">and minimal design for effortless comfort and elegance.</div>
 												<a class="mry-btn mry-default-link mry-anima-link" href="project.html">Open Case</a>
 												<a class="mry-btn-text mry-default-link mry-anima-link" href="portfolio-grid-2.html">All Projects</a>
 											</div>
@@ -217,7 +241,7 @@
 												data-swiper-parallax-duration="1000">
 												<div class="mry-subtitle mry-mb-20">Interior design</div>
 												<h1 class="mry-mb-30">Timeless <br><span class="mry-border-text">Natural Harmony</span><span class="mry-animation-el"></span></h1>
-												<div class="mry-text mry-mb-30">A calm, cozy space with warm wood tones and<br>soft lighting for restful, peaceful living.</div>
+												<div class="mry-text mry-mb-30">A calm, cozy space with warm wood tones and<br class="show-for-medium-only">soft lighting for restful, peaceful living.</div>
 												<a class="mry-btn mry-default-link mry-anima-link" href="project.html">Open Case</a>
 												<a class="mry-btn-text mry-default-link mry-anima-link" href="portfolio-grid-2.html">All Projects</a>
 											</div>
