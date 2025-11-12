@@ -285,6 +285,9 @@
 			768: {
 				slidesPerView: 2,
 			},
+			450: {
+				slidesPerView: 1,
+			},
 		},
 	});
 
