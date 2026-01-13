@@ -273,7 +273,7 @@
 	});
 
 	var swiper = new Swiper(".mry-team-slider", {
-		slidesPerView: 3,
+		slidesPerView: 4,
 		spaceBetween: 30,
 		loop: true,
 		navigation: {

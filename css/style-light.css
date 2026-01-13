@@ -337,7 +337,7 @@ h6 {
 
 .mry-magnetic-link {
 	width: 100px;
-	height: 100px;
+	height: 70px;
 	display: flex;
 	position: relative;
 	justify-content: center;
@@ -1823,7 +1823,7 @@ blockquote:after {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding-bottom: calc(63% + 8px);
+	padding-bottom: calc(100% + 8px);
 }
 
 .mry-card-item .mry-card-cover-frame .mry-badge {
@@ -1892,27 +1892,27 @@ blockquote:after {
 /* Sizes */
 
 .mry-masonry-grid-item-50 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(63% + 8px);
+	padding-bottom: calc(100% + 8px);
 }
 
 .mry-masonry-grid-item-50.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(126% + 36px);
+	padding-bottom: calc(200% + 36px);
 }
 
 .mry-masonry-grid-item-33 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(63% + 8px);
+	padding-bottom: calc(100% + 8px);
 }
 
 .mry-masonry-grid-item-33.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(126% + 36px);
+	padding-bottom: calc(200% + 36px);
 }
 
 .mry-without-descr .mry-masonry-grid-item-50 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: 63%;
+	padding-bottom: 100%;
 }
 
 .mry-without-descr .mry-masonry-grid-item-50.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: 141%;
+	padding-bottom: 200%;
 }
 
 /* Grid */
@@ -2455,14 +2455,23 @@ img.service_icon {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	margin-left: 15px;
 }
 
 .mry-ceo-bg {
 	position: absolute;
 	bottom: 0;
-	left: 6.5%;
-	width: 106%;
+	left: 0;
+	width: 100%;
+	height: 73%;
+	background-color: #ffb74db8;
+	z-index: 1;
+	border-radius: 100px 10px 10px 10px;
+}
+.mry-ceo-bg2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	height: 73%;
 	background-color: #e0e0e0;
 	z-index: 1;
@@ -2536,6 +2545,9 @@ img.service_icon {
 }
 
 /* Video Filter */
-.mry-video {
+.mry-video.grey-video {
 	filter: grayscale(100%);
+}
+.single-leader{
+	max-width: 300px;
 }
