@@ -2463,7 +2463,8 @@ img.service_icon {
 	left: 0;
 	width: 100%;
 	height: 73%;
-	background-color: #ffb74db8;
+	/* background-color: #ffb74db8; */
+	background-color: #e0e0e0;
 	z-index: 1;
 	border-radius: 100px 10px 10px 10px;
 }
@@ -2551,3 +2552,19 @@ img.service_icon {
 .single-leader{
 	max-width: 300px;
 }
+.two-leaders{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+@media (max-width: 629px) {
+	.two-leaders{
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	.two-leaders .single-leader .mry-team-member{
+		margin-bottom: 34px;
+	}
+}
+
+
