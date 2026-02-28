@@ -549,10 +549,13 @@ h6 {
 	width: 80px;
 }
 
+.mry-app .mry-top-panel .mry-logo-frame .mry-logo-mobile {
+	display: none;
+}
+
 /* Menu Button */
 
 .mry-menu-button-frame {
-	padding-left: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -808,8 +811,45 @@ h6 {
 		padding: 0 30px;
 	}
 
+	.mry-menu-button-frame .mry-menu-btn,
+	.mry-menu-button-frame {
+		background-color: transparent;
+	}
+
+	.index-page .mry-menu-button-frame .mry-menu-btn .mry-burger span:before,
+	.index-page .mry-menu-button-frame .mry-menu-btn .mry-burger span:after,
+	.index-page .mry-menu-button-frame .mry-menu-btn .mry-burger span {
+		background: #fff;
+	}
+
+	.mry-menu-button-frame .mry-menu-btn.mry-active .mry-burger span:before,
+	.mry-menu-button-frame .mry-menu-btn.mry-active .mry-burger span:after,
+	.mry-menu-button-frame .mry-menu-btn.mry-active .mry-burger span {
+		background: #000;
+	}
+
+	.mry-app .mry-top-panel .mry-logo-frame {
+		background: transparent;
+	}
+
+	.index-page .mry-app .mry-top-panel .mry-logo-frame .mry-logo-desktop {
+		display: none;
+	}
+
+	.index-page .mry-app .mry-top-panel .mry-logo-frame .mry-logo-mobile {
+		display: block;
+	}
+
+	.index-page .mry-app .mry-top-panel:has(.mry-menu-btn.mry-active) .mry-logo-frame .mry-logo-desktop {
+		display: block;
+	}
+
+	.index-page .mry-app .mry-top-panel:has(.mry-menu-btn.mry-active) .mry-logo-frame .mry-logo-mobile {
+		display: none;
+	}
+
 	.mry-menu nav ul .menu-item a {
-		font-size: 22px;
+		font-size: 33px;
 	}
 
 	.mry-menu nav ul .menu-item.menu-item-has-children:after {

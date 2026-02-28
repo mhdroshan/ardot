@@ -51,28 +51,34 @@
 		@media (max-width: 450px) {
 			.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title{
 				padding-bottom: 10px !important;
-				background-color: #f7f8fad1 !important;
+				background-color: transparent !important;
 				padding-right: 30px !important;
 			}
 			.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title.first-sld{
 				background-color: #f7f8fa00 !important
 			}
-			.mry-main-title.first-sld h1,
-			.mry-main-title.first-sld .mry-subtitle,
-			.mry-main-title.first-sld .mry-text,
-			.mry-main-title.first-sld .mry-btn,
-			.mry-main-title.first-sld .mry-btn-text{
+			.mry-main-title h1,
+			.mry-main-title .mry-subtitle,
+			.mry-main-title .mry-text,
+			.mry-main-title .mry-btn,
+			.mry-main-title .mry-btn-text{
 				color: #fff;
 				text-shadow: none !important;
 			}
-			.mry-main-title.first-sld .mry-btn{
+			.mry-main-title .mry-btn{
 				border-color: #fff;
 			}
-			.mry-main-title.first-sld .mry-border-text{
+			.mry-main-title	 .mry-border-text{
 				-webkit-text-stroke-color :#fff;
+				-webkit-text-stroke-width: 1px;
+			}
+			.mry-main-title-frame{
+				background-color: #0000007d;
+				backdrop-filter: blur(.5px);
 			}
 			.mry-main-title-frame.first-frm{
 				background-color: #00000036;
+				backdrop-filter: none;
 			}
 			
 		}
@@ -80,7 +86,7 @@
 	</style>
 </head>
 
-<body>
+<body class="index-page">
 
 	<div class="mry-app">
 
@@ -115,11 +121,11 @@
 		<div class="mry-top-panel">
 			<div class="mry-logo-frame">
 				<a href="index.html" class="mry-default-link mry-anima-link">
-					<img class="mry-logo" src="img/ardot-logo-black.png" alt="Mireya">
+					<img class="mry-logo mry-logo-desktop" src="img/ardot-logo-black.png" alt="Mireya">
+					<img class="mry-logo mry-logo-mobile" src="img/ardot-logo-white.png" alt="Mireya">
 				</a>
 			</div>
-			<div class="mry-menu-button-frame">
-				<div class="mry-label">Menu</div>
+			<div class="mry-menu-button-frame index-page">
 
 				<div class="mry-menu-btn mry-magnetic-link">
 					<div class="mry-burger mry-magnetic-object">
