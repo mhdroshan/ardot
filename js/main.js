@@ -31,7 +31,7 @@
 
 	});
 
-	
+
 	Scrollbar.use(OverscrollPlugin);
 	var scrollbar = Scrollbar.init(document.querySelector('#scroll'), {
 		damping: 0.07,
@@ -52,7 +52,7 @@
 
 	$('.mry-scroll-hint').on('click', function () {
 		scrollbar.scrollTo(0, 550, 1800);
-	}); 
+	});
 
 	// portfolio filter
 	$('.mry-filter a').on('click', function () {
@@ -101,7 +101,7 @@
 		],
 	});
 
-	$.fancybox.defaults.hash = false;	
+	$.fancybox.defaults.hash = false;
 
 	if ($('html').hasClass('is-rendering')) {
 		$("html, body").animate({
@@ -355,7 +355,7 @@
 	};
 
 	createProjectScenes(scrolAnimation1);
-	
+
 
 	var scrolAnimation3 = document.getElementsByClassName('mry-curtain');
 

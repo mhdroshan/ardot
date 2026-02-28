@@ -1896,7 +1896,7 @@ blockquote:after {
 }
 
 .mry-masonry-grid-item-50.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(200% + 36px);
+	padding-bottom: calc(125% + 18px);
 }
 
 .mry-masonry-grid-item-33 .mry-card-item .mry-card-cover-frame {
@@ -1904,7 +1904,7 @@ blockquote:after {
 }
 
 .mry-masonry-grid-item-33.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: calc(200% + 36px);
+	padding-bottom: calc(125% + 18px);
 }
 
 .mry-without-descr .mry-masonry-grid-item-50 .mry-card-item .mry-card-cover-frame {
@@ -1912,7 +1912,7 @@ blockquote:after {
 }
 
 .mry-without-descr .mry-masonry-grid-item-50.mry-masonry-grid-item-h-x-2 .mry-card-item .mry-card-cover-frame {
-	padding-bottom: 200%;
+	padding-bottom: 125%;
 }
 
 /* Grid */
@@ -2468,6 +2468,7 @@ img.service_icon {
 	z-index: 1;
 	border-radius: 100px 10px 10px 10px;
 }
+
 .mry-ceo-bg2 {
 	position: absolute;
 	bottom: 0;
@@ -2549,22 +2550,24 @@ img.service_icon {
 .mry-video.grey-video {
 	filter: grayscale(100%);
 }
-.single-leader{
+
+.single-leader {
 	max-width: 300px;
 }
-.two-leaders{
+
+.two-leaders {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
 }
+
 @media (max-width: 629px) {
-	.two-leaders{
+	.two-leaders {
 		flex-direction: column;
 		margin-bottom: 50px;
 	}
-	.two-leaders .single-leader .mry-team-member{
+
+	.two-leaders .single-leader .mry-team-member {
 		margin-bottom: 34px;
 	}
 }
-
-
