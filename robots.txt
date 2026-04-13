@@ -1,0 +1,8 @@
+# Optimized robots.txt for Ardot (ardot.in)
+# Aimed at improving Local SEO Crawling
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ardot.in/sitemap.xml
